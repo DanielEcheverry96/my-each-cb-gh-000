@@ -1,6 +1,6 @@
 def my_each (array)# put argument(s) here
   # code here
-  if condition
+  if block_given?
     index = 0
     while index < array.lenght
       yield (array[index])
